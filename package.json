@@ -1,0 +1,19 @@
+{
+  "name": "WidgetSweeper",
+  "version": "1.0.0",
+  "description": "Your Figma widget",
+  "main": "code.js",
+  "scripts": {
+    "build": "esbuild --bundle code.tsx --outfile=code.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@figma/plugin-typings": "*",
+    "@figma/widget-typings": "*",
+    "esbuild": "^0.13.12",
+    "prettier": "^2.4.1",
+    "typescript": "*"
+  }
+}

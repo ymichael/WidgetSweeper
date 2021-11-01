@@ -1,0 +1,3 @@
+# WidgetSweeper
+
+FigJam Minesweeper widget
