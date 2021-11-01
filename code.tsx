@@ -204,23 +204,23 @@ function Widget() {
       {
         itemType: "action",
         propertyName: "new-easy",
-        tooltip: "New Game (Easy)",
+        tooltip: "Easy",
       },
       {
         itemType: "action",
         propertyName: "new-med",
-        tooltip: "New Game (Medium)",
+        tooltip: "Medium",
       },
       {
         itemType: "action",
         propertyName: "new-expert",
-        tooltip: "New Game (Expert)",
+        tooltip: "Expert",
       },
-      {
-        itemType: "action",
-        tooltip: "Cheat",
-        propertyName: "cheat",
-      },
+      // {
+      //   itemType: "action",
+      //   tooltip: "Cheat",
+      //   propertyName: "cheat",
+      // },
     ],
     ({ propertyName }) => {
       if (propertyName === "restart") {
